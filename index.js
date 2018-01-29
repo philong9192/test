@@ -23,7 +23,8 @@ var countDone = 0;
 var countFaild = 0;
 var count = 0;
 
-var intMail = schedule.scheduleJob('5 */2 * * *', function(){
+getAllUrl();
+var intMail = schedule.scheduleJob('45 * * * *', function(){
 	getAllUrl();
 });
 
