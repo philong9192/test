@@ -28,6 +28,7 @@ var intMail = schedule.scheduleJob('45 * * * *', function(){
 	getAllUrl();
 });
 
+
 //testUrl('http://www.techone.vn/iphone-6s-16gb-lock-5917.html', 1);
 
 function readJsonUrl(data) {
